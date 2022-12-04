@@ -3,19 +3,19 @@ name: OFP Decrypter by Area69Labs
 on:
   workflow_dispatch:
     inputs:
-      ofp_link:
+      ofp_link: https://doc-10-8s-docs.googleusercontent.com/docs/securesc/4vcm0c5mjtamlrcg4vd0j7m2aje0n2kb/18dqekargg5s6spnfqe42uh00s7k1bar/1670126625000/04936275984745205147/04936275984745205147/1_ef6SSUELaXo2TPzOI2vpk5eSQgaqtmS?e=download&ax=AEKYgyTmAQInjh-FK4ad9Fe7kRqUtTLmVriNnjqQTaIcuWMPgxEGzta-dOCLurS5NkTk4N7pTalM9ncGwzxd2LJOwUiOGlxN5mGvi8e_7LLrlCY2tEtus0hurG40wcpNrSiXAmC2DjvaAgLAfoBubSgFjhUzQoxYaT23jV6McFFIO65G9QjL1St5lYlELVHmp2r19iCsbF3zHLZfkcf71vgTsgrUz9EdlhNAsMTxOGiMFJyeQKuTmjNvVSo-kneoQGI3aIbJtp0rktGb7Cx1UVQ8Wfof7OGcia8dFY5zbFGRXOe2hQuCw2rObi3ZwPsx2kGqhGMposTpdLIBGWgM86zkGiF0K-lsTthMc3e4gwnWYbFuO5rTXlvwJsKvCYYyCJOZmZh4khU9XDGfbqKguscxqZdb5ULFtIc2JftPqysaTpvmFO6kYSHHn0F8whls3rUx4_J9WmG-vOOzpGZP5SuqE6GQEmwqW4jb_7Bn3VK46o9K8fMHasB482gVJGGLQGlVlWDy93lbPVdJY_FxZ-zwdlmgj6gJqg5cvTUf7ifyVu24F0XTy0zHt_seSllSdxKrWJD8ay93SkT3Iwy80bbEu5qB2gwCSbYDH-Oc53KlJMpoQWoS79BrIsHlB71ZtQ9zkwJkX3NtISLnCrSJ63vGR3vKaN5eL2Pue-bMIA9pmWYp9U_KeLAoso2k8DImzgGxIhGvAQ7jrjz3DFJTOS4Y19BMBjDKVTEZxEJ0ce2EWC7G7piSAzBNelDCP2WqM4vIB8tofXscBblL_TJfKm8N1CI1dU01lnUcyNhC1B9ukKOKHOv0HObHzdOpX7NZKqdg8FG9SvMa7U_fFfdVups-KncEdAFVmxwjwbwRMXBVnV8zius7f8Qlsjmm6qypR1Y-lgOesmo8-o8y4oIzlR63zelMyVzZ5t7v29I3eLmIE_yjIfF_13BLrLiZboyQQrabNXj9Ong2&uuid=715bacda-dda1-4cd9-b5f7-e4f492226115&authuser=2
         description: 'OFP Firmaware Link'
         required: true
-      filename:
+      filename: RMX2155
         description: 'The filename You want in output (make unique)'
         required: true
-      devicetype:
+      devicetype: MTK
         description: 'Specify Your Device type. { For Qualcomm (QC) FOR MEDIATEK (MTK) }'
         required: true
       simage:
         description: 'Do you want to merege super images, if yes then type <YES>'
         required: false
-        default: 'NO'
+        default: 'YES'
       bigfile:
         description: 'Set to YES if your ofp file is more than 8GB. Setting to yes will take more time.'
         required: false
